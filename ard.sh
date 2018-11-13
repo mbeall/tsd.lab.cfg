@@ -74,9 +74,28 @@ lpstat -p
 lpadmin -p "_IP_ADD_RE_SS" -v lpd://IP.ADD.RE.SS -P "/Library/Printers/PPDs/Contents/Resources/DRIVER.gz" -E -D "Printer Name"
 
 # Close Google Chrome
-osascript -e 'tell application "Google Chrome" to close every window'
 open -a "Google Chrome"
+osascript -e 'tell application "Google Chrome" to close every window'
 osascript -e 'tell application "System Events" to keystroke "q" using command down'
 
 # Disable user login
 chpass -s /usr/bin/false USERNAME
+
+# Add National Geographic screensaver photos as desktop background options (root)
+cp -p "/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo01.jpg" "/Library/Desktop Pictures/Emperor Penguins.jpg"
+cp -p "/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo02.jpg" "/Library/Desktop Pictures/Life at the Edge.jpg"
+cp -p "/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo03.jpg" "/Library/Desktop Pictures/Glaciers.jpg"
+cp -p "/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo04.jpg" "/Library/Desktop Pictures/Limestone Hills.jpg"
+cp -p "/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo05.jpg" "/Library/Desktop Pictures/Atacama Desert.jpg"
+cp -p "/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo06.jpg" "/Library/Desktop Pictures/Painting the Sky.jpg"
+cp -p "/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo07.jpg" "/Library/Desktop Pictures/Chinese Mystic Waters.jpg"
+cp -p "/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo08.jpg" "/Library/Desktop Pictures/Austfonna Ice Cap.jpg"
+#cp -p "/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo09.jpg" "/Library/Desktop Pictures/NAME?.jpg"
+cp -p "/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo10.jpg" "/Library/Desktop Pictures/Sea Animals.jpg"
+cp -p "/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo11.jpg" "/Library/Desktop Pictures/African Sunset.jpg"
+#cp -p "/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo12.jpg" "/Library/Desktop Pictures/NAME?.jpg"
+cp -p "/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo13.jpg" "/Library/Desktop Pictures/3 Degrees of Japanese Seas.jpg"
+cp -p "/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo14.jpg" "/Library/Desktop Pictures/African Super Park.jpg"
+#cp -p "/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo15.jpg" "/Library/Desktop Pictures/NAME?.jpg"
+cp -p "/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo16.jpg" "/Library/Desktop Pictures/South Sandwich Islands.jpg"
+cp -p "/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo17.jpg" "/Library/Desktop Pictures/Lion and Cub.jpg"
