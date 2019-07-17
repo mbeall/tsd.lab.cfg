@@ -99,3 +99,8 @@ cp -p "/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo14
 #cp -p "/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo15.jpg" "/Library/Desktop Pictures/NAME?.jpg"
 cp -p "/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo16.jpg" "/Library/Desktop Pictures/South Sandwich Islands.jpg"
 cp -p "/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo17.jpg" "/Library/Desktop Pictures/Lion and Cub.jpg"
+
+# Silent installation for Flash Player
+# 1. Extract the Adobe Flash Player installer bundle (Install Adobe Flash Player.app) from the .DMG file.
+# 2. Change to the directory where the .app file is saved.
+sudo ./Install Adobe Flash Player.app/Contents/MacOS/Adobe Flash Player Install Manager -install
